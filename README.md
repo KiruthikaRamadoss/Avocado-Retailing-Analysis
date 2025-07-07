@@ -1,4 +1,5 @@
 🥑 Avocado Retailing Analysis
+
 An end-to-end data analytics project exploring retail trends in the U.S. avocado market using descriptive, predictive, and prescriptive analytics. This project combines EDA, forecasting models, and optimization techniques to generate actionable business insights.
 
 📑 Table of Contents
