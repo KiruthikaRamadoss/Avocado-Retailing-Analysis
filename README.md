@@ -1,153 +1,142 @@
-#  🥑 Avocado Retailing Analysis
+# 🥑 Avocado Retailing Analysis
 
 An end-to-end data analytics project exploring retail trends in the U.S. avocado market using descriptive, predictive, and prescriptive analytics. This project combines EDA, forecasting models, and optimization techniques to generate actionable business insights.
 
-## Table of Contents
+---
+
+## 📑 Table of Contents
 
 - [Overview](#overview)
 - [Project Highlights](#project-highlights)
 - [Tools & Techniques](#tools--techniques)
-- [Data Preprocessing & EDA](#data-preprocessing--eda)
 - [Dataset](#dataset)
+- [Data Preprocessing & EDA](#data-preprocessing--eda)
 - [Modeling](#modeling)
 - [Results](#results)
 - [Supplementary Documents](#supplementary-documents)
-- [Summary](#summary)
 - [How to Run](#how-to-run)
 - [Contact](#contact)
 
+---
 
-📈 Overview
-This project investigates the retail market for avocados in the U.S., analyzing trends, forecasting sales, and optimizing supply strategies. Using USDA retail data and historical sales, the analysis covers price fluctuations, consumer preferences, and supply chain decisions.
+## 🌟 Overview
 
-Key Objectives:
+This project addresses retail pricing strategy and sales trends in the U.S. avocado market. By applying descriptive, predictive, and prescriptive analytics, we derive insights to inform pricing, supply chain planning, and marketing decisions.
 
-Understand regional sales trends and price dynamics
+**Objectives:**
+- Analyze historical retail sales data
+- Build forecasting models for avocado prices
+- Optimize pricing and distribution strategies
 
-Forecast future demand for small/medium Hass avocados
+---
 
-Optimize domestic vs. imported supply proportions to minimize costs
+## ⚡ Project Highlights
 
-📊 Dataset
-Sources:
+- Descriptive analytics using EDA and visualization to uncover sales trends
+- Predictive analytics with time series forecasting to predict average prices
+- Prescriptive analytics for pricing recommendations and optimization
+- Integration of multiple datasets (USDA Market News, retail pricing)
+- Professional storytelling through Jupyter Notebooks and slides
 
-USDA Market News Portal
+---
 
-Kaggle - Augmented Avocado Dataset
+## 🛠️ Tools & Techniques
 
-Features Include:
+- **Languages:** Python (pandas, matplotlib, seaborn, scikit-learn, statsmodels)
+- **Notebooks:** Jupyter Notebook
+- **Visualization:** matplotlib, seaborn
+- **Forecasting:** ARIMA, Prophet
+- **Optimization:** Linear programming for pricing strategy
 
-Region, Product Type, Average Price, Volume Sold
+---
 
-Organic vs. Conventional classification
+## 🗂️ Dataset
 
-Date of Sale, Bag Size, Variety
+- **Sources:** USDA Market News Retail Data, historical retail pricing data
+- 📁 [Download Dataset (CSV)](https://github.com/KiruthikaRamadoss/)
+- **Features Include:**
+  - Date
+  - Region
+  - Average Price
+  - Total Volume
+  - Small/Extra-Large Hass Avocado Sales
+  - Type (Conventional/Organic)
+  - Year
 
-📁 Download Data CSV
-📁 USDA Data XLSX
+---
 
-🔎 Data Preprocessing & EDA
-Cleaned missing and inconsistent entries
+## 🔎 Data Preprocessing & EDA
 
-Categorized regions, product types, and sales channels
+- Cleaned and merged multiple data sources
+- Handled missing values and outliers
+- Created time series features for modeling
+- Visualized trends in price and volume across regions
+- Key Insights:
+  - Price variations between organic and conventional types
+  - Seasonal demand patterns
+  - Regional differences in average price and volume
 
-Exploratory Analysis:
+---
 
-Seasonal price and volume trends
+## 🤖 Modeling
 
-Regional differences in prices and demand
+- **Forecasting Approaches:**
+  - ARIMA modeling of average price trends
+  - Facebook Prophet for multi-seasonality
+- **Validation:**
+  - Train/test split
+  - RMSE comparison across models
+- **Prescriptive Analytics:**
+  - Pricing strategy recommendations
+  - Optimization to maximize revenue under demand constraints
 
-Correlation between bag size and price
+📓 *Notebooks:*
+- Avocado_Retailing_Descriptive_Analysis.ipynb
+- PredictiveAnalytics-AvocadoRetailing.ipynb
+- Avocado_Retailing_Prescriptive_Analysis.ipynb
 
-📓 View Jupyter Notebook
+---
 
-🤖 Modeling & Forecasting
-Descriptive Analysis:
+## 📈 Results
 
-Violin plots and heatmaps to visualize price/volume differences by region
+- Accurate forecasting of average prices with ARIMA and Prophet
+- Clear identification of seasonal price peaks
+- Optimized pricing recommendations balancing demand elasticity
+- Strategic insights for regional marketing and distribution
 
-Highlighted higher average prices in New York vs. higher volumes in Los Angeles
+---
 
-Predictive Forecasting:
+## 📄 Supplementary Documents
 
-Modeled small/medium Hass avocado sales in New York, Seattle, and Los Angeles
+- 📊 [Presentation Slides (PPTX)](https://github.com/KiruthikaRamadoss/)
+- 📄 [Final Project Report (PDF)](https://github.com/KiruthikaRamadoss/)
 
-Identified seasonal spikes (summer peaks) and upward trends
+---
 
-Used time series forecasting to project next-year sales
+## 💻 How to Run
 
-🧮 Optimization & Simulation
-Developed a Linear Programming model to minimize supply costs
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis.git
+   cd Avocado-Retailing-Analysis
+   
+2. Create and activate a virtual environment (Optional):
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
 
-Decision Variables: Proportion of domestic vs. imported supply
+3. Install dependencies:
+   pip install -r requirements.txt
 
-Constraints: Demand fulfillment, maintaining 90% imported / 10% domestic mix
+4. Launch the notebook:
+   jupyter notebook HomeLoan.ipynb
 
-Simulation demonstrated cost advantages of imports and recommended regional strategies
+---
 
-✅ Results & Recommendations
-Insights:
+## Contact
 
-Imported avocados dominate U.S. supply (86.8%) due to cost stability
+For inquiries, collaboration, or feedback:
 
-Domestic production shows potential in the Midwest if costs are reduced
-
-Sales forecast suggests growing demand, especially in Los Angeles
-
-Seasonal price trends call for demand-aligned inventory planning
-
-Recommendations:
-
-Strengthen imported supply chains, especially in Northeast/Southeast
-
-Invest in reducing domestic production costs
-
-Tailor marketing to regional preferences
-
-Develop pre-made, ready-to-eat avocado products
-
-Enhance e-commerce channels for consumer access
-
-📄 Supplementary Documents
-📊 Presentation Slides (PPTX)
-📄 Final Report (PDF)
-
-Documents are shared as view-only to maintain integrity and prevent edits.
-
-🗂️ How to Run
-Clone this repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/YOURUSERNAME/Avocado-Retailing-Analysis.git
-cd Avocado-Retailing-Analysis
-(Optional) Create and activate a virtual environment:
-
-bash
-Copy
-Edit
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Launch the notebook:
-
-bash
-Copy
-Edit
-jupyter notebook Avocado_Retailing.ipynb
-🤝 Contact
-For inquiries, feedback, or professional connections:
-
-LinkedIn
-
-GitHub
-
-Email
-
-✨ Thank you for exploring this project! Feel free to fork, star, or open issues. Let’s collaborate to drive better data-driven decisions in retail analytics.
+- [LinkedIn](https://www.linkedin.com/in/kiruthikaramadoss/)
+- [GitHub](https://github.com/KiruthikaRamadoss)
+- [Email](mailto:k_r549@txstate.edu)
+  
