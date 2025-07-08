@@ -1,25 +1,22 @@
-🥑 Avocado Retailing Analysis
+#  🥑 Avocado Retailing Analysis
 
 An end-to-end data analytics project exploring retail trends in the U.S. avocado market using descriptive, predictive, and prescriptive analytics. This project combines EDA, forecasting models, and optimization techniques to generate actionable business insights.
 
-📑 Table of Contents
-📈 Overview
+## Table of Contents
 
-📊 Dataset
+- [Overview](#overview)
+- [Project Highlights](#project-highlights)
+- [Tools & Techniques](#tools--techniques)
+- - [Data Preprocessing & EDA](#data-preprocessing--eda)
+- [Dataset](#dataset)
+- - [Modeling](#modeling)
+- [Results](#results)
+- [Results](#results)
+- [Supplementary Documents](#supplementary-documents)
+- [Summary](#summary)
+- [How to Run](#how-to-run)
+- [Contact](#contact)
 
-🔎 Data Preprocessing & EDA
-
-🤖 Modeling & Forecasting
-
-🧮 Optimization & Simulation
-
-✅ Results & Recommendations
-
-📄 Supplementary Documents
-
-🗂️ How to Run
-
-🤝 Contact
 
 📈 Overview
 This project investigates the retail market for avocados in the U.S., analyzing trends, forecasting sales, and optimizing supply strategies. Using USDA retail data and historical sales, the analysis covers price fluctuations, consumer preferences, and supply chain decisions.
