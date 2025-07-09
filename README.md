@@ -4,7 +4,7 @@ An end-to-end data analytics project exploring retail trends in the U.S. avocado
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Objectives](#objectives)
