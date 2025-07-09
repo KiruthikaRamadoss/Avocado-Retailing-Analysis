@@ -6,7 +6,7 @@ An end-to-end data analytics project exploring retail trends in the U.S. avocado
 
 ## 📑 Table of Contents
 
-- [Overview](#-overview)
+- [Overview](#overview)
 - [Objectives](#objectives)
 - [Project Highlights](#project-highlights)
 - [Tools & Techniques](#tools--techniques)
@@ -21,13 +21,13 @@ An end-to-end data analytics project exploring retail trends in the U.S. avocado
 
 ---
 
-## 🌟 Overview
+## Overview
 
 This project addresses retail pricing strategy and sales trends in the U.S. avocado market. By applying descriptive, predictive, and prescriptive analytics, it delivers insights to inform pricing, supply chain planning, and marketing decisions.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Analyze historical retail sales data
 - Build forecasting models for avocado prices and demand
@@ -36,7 +36,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## ⚡ Project Highlights
+## Project Highlights
 
 - Descriptive analytics using EDA and visualization to uncover sales trends
 - Predictive analytics with time series forecasting (ARIMA, Prophet)
@@ -46,7 +46,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 🛠️ Tools & Techniques
+## 🛠Tools & Techniques
 
 - **Languages:** Python (pandas, matplotlib, seaborn, scikit-learn, statsmodels)
 - **Notebooks:** Jupyter Notebook
@@ -56,7 +56,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 - **Sources:** USDA Market News Retail Data, Kaggle Avocado Augmented dataset
 - **Download CSV:** [Augmented Avocado CSV](Augmented_avocado.csv)
@@ -71,7 +71,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 🔎 Data Preprocessing & EDA
+## Data Preprocessing & EDA
 
 - Cleaned and merged multiple data sources
 - Handled missing values and outliers
@@ -89,7 +89,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 🤖 Modeling
+## Modeling
 
 - **Forecasting Approaches:**
   - ARIMA for average price trends
@@ -116,7 +116,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 
 - **Demand Forecasting:** Use forecasting to align inventory with seasonal demand
 - **Product Strategy:** Develop pre-made, ready-to-eat avocado options
@@ -134,9 +134,29 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 💻 How to Run
+## How to Run
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis.git
    cd Avocado-Retailing-Analysis
+
+2. Create and activate a virtual environment (Optional):
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Launch the notebook:
+   jupyter notebook HomeLoan.ipynb
+
+---
+
+## Contact
+
+For inquiries, collaboration, or feedback:
+
+- [LinkedIn](https://www.linkedin.com/in/kiruthikaramadoss/)
+- [GitHub](https://github.com/KiruthikaRamadoss)
+- [Email](mailto:k_r549@txstate.edu)
