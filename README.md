@@ -46,7 +46,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 🛠Tools & Techniques
+## Tools & Techniques
 
 - **Languages:** Python (pandas, matplotlib, seaborn, scikit-learn, statsmodels)
 - **Notebooks:** Jupyter Notebook
@@ -107,7 +107,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 📈 Results
+## Results
 
 - Accurate forecasting of average avocado prices
 - Seasonal peaks clearly identified (higher prices in colder months)
@@ -127,7 +127,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 
 ---
 
-## 📄 Supplementary Documents
+## Supplementary Documents
 
 - 📊 [Presentation Slides (PPTX)](AVOCADO%20RETAILING%20FINAL.pptx)
 - 📄 [Final Project Report (PDF)](Avocado%20Retailing%20Project%20Report.pdf)
