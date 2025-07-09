@@ -59,7 +59,7 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 ## Dataset
 
 - **Sources:** USDA Market News Retail Data, Kaggle Avocado Augmented dataset
-- **Download CSV:** [Augmented Avocado CSV](Augmented_avocado.csv)
+- **Download CSV:** [Augmented Avocado CSV]([Augmented_avocado.csv](https://drive.google.com/file/d/1VLf6qCnIXdhVRNxmQkVLyoyiHyJL7RVW/view?usp=drive_link))
 - **Features Include:**
   - Date
   - Region
