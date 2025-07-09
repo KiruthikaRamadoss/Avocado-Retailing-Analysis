@@ -78,7 +78,7 @@ The primary data was obtained from the USDA Market News Portal, a trusted govern
   
 ---
 
-## 🔎 Data Preprocessing & EDA
+## Data Preprocessing & EDA
 
 - Cleaned and merged multiple data sources
 - Handled missing values and outliers
