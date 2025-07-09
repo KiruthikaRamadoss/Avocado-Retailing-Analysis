@@ -59,7 +59,8 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 ## Dataset
 
 - **Sources:** USDA Market News Retail Data, Kaggle Avocado Augmented dataset
-- **Download CSV:** [Augmented Avocado CSV]([Augmented_avocado.csv](https://drive.google.com/file/d/1VLf6qCnIXdhVRNxmQkVLyoyiHyJL7RVW/view?usp=drive_link))
+- **Government-Verified Source:**
+The primary data was obtained from the USDA Market News Portal, a trusted government website known for providing reliable and verified agricultural data.
 - **Features Include:**
   - Date
   - Region
@@ -69,9 +70,15 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
   - Type (Conventional/Organic)
   - Year
 
+## 🗂️ Dataset
+
+- **Download CSV:** [Avocado USDA Market Excel (GitHub)](https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis/blob/main/avocado-files/Avocado_USDA_data_market.xlsx)
+
+- **Augmented Analysis Dataset:** [Augmented Avocado CSV (Google Drive)](https://drive.google.com/file/d/1VLf6qCnIXdhVRNxmQkVLyoyiHyJL7RVW/view?usp=drive_link)
+  
 ---
 
-## Data Preprocessing & EDA
+## 🔎 Data Preprocessing & EDA
 
 - Cleaned and merged multiple data sources
 - Handled missing values and outliers
@@ -83,9 +90,6 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
 - Seasonal demand peaks during warmer months
 - Regional price variations (e.g., New York consistently higher)
 - Strong positive correlation between volume and price for certain SKUs
-
-📓 *Notebook:*
-- Avocado_Retailing_Descriptive_Analysis.ipynb
 
 ---
 
@@ -102,8 +106,9 @@ This project addresses retail pricing strategy and sales trends in the U.S. avoc
   - Recommendations for balancing imported and domestic supply
 
 📓 *Notebooks:*
-- PredictiveAnalytics-AvocadoRetailing.ipynb
-- Avocado_Retailing_Prescriptive_Analysis.ipynb
+- [Descriptive Analysis](Avocado_Retailing_Descriptive_Analysis.ipynb)
+- [Predictive Analysis](PredictiveAnalytics-AvocadoRetailing.ipynb)
+- [Prescriptive Analysis](Avocado_Retailing_Prescriptive_Analysis.ipynb)
 
 ---
 
