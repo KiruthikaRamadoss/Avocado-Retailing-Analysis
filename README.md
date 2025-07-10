@@ -72,7 +72,7 @@ The primary data was obtained from the USDA Market News Portal, a trusted govern
 
 ## 🗂️ Dataset
 
-- **Download CSV:** [Avocado USDA Market Excel (GitHub)](https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis/blob/main/avocado-files/Avocado_USDA_data_market.xlsx)
+- **Download CSV:** [Avocado USDA Market CSV] (https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis/blob/main/avocado-files/Avocado_USDA_data_market.xlsx)
 
 - **Augmented Analysis Dataset:** [Augmented Avocado CSV (Google Drive)](https://drive.google.com/file/d/1VLf6qCnIXdhVRNxmQkVLyoyiHyJL7RVW/view?usp=drive_link)
   
@@ -134,8 +134,8 @@ The primary data was obtained from the USDA Market News Portal, a trusted govern
 
 ## Supplementary Documents
 
-- 📊 [Presentation Slides (PPTX)](AVOCADO%20RETAILING%20FINAL.pptx)
-- 📄 [Final Project Report (PDF)](Avocado%20Retailing%20Project%20Report.pdf)
+- 📊 [Presentation Slides (PPTX)](https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis/blob/main/avocado-files/AVOCADO%20%20RETAILING%20FINAL.pptx)
+- 📄 [Final Project Report (PDF)](https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis/blob/main/avocado-files/Avocado%20Retailing%20Project%20Report.pdf)
 
 ---
 
