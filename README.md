@@ -134,7 +134,7 @@ The primary data was obtained from the USDA Market News Portal, a trusted govern
 
 ## Supplementary Documents
 
-- 📊 [Presentation Slides (PPTX)](https://docs.google.com/presentation/d/1J9PsQaRGda4h2AR93fX3kFIdRkhoNZCc/edit?usp=sharing&ouid=102358385028012014091&rtpof=true&sd=true)
+- 📊 [Presentation Slides (PPTX)](https://docs.google.com/presentation/d/1J9PsQaRGda4h2AR93fX3kFIdRkhoNZCc/edit?usp=drive_link&ouid=102358385028012014091&rtpof=true&sd=true)
 - 📄 [Final Project Report (PDF)](https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis/blob/main/avocado-files/Avocado%20Retailing%20Project%20Report.pdf)
 
 ---
